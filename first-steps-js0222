@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="withd=device-withd, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="click-event box">
+      <h4>Quelle est la capitale de la France ?</h4>
+      <button id="btn-1">Paris</button>
+      <button id="btn-2">Lyon</button>
+      <p>La bonne réponse est Paris !</p>
+    </div>
+
+    <div class="souris"></div>
+
+    <div class="keypress box">
+      <h2>Vous appuyez sur la touche : <span id="key"></span></h2>
+    </div>
+
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Service</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <form action="" class="box">
+      <input type="text" placeholder="Entrez votre nom" />
+
+      <select>
+        <option value="">Sélectionnez votre language favoris</option>
+        <option value="Javascript">Javascript</option>
+        <option value="PHP">PHP</option>
+        <option value="Phyton">Python</option>
+      </select>
+
+      <input type="submit" value="valider" />
+
+      <input type="checkbox" id="CGV" />
+      <label for="CGV">Accepter les CGV</label>
+      <div></div>
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
